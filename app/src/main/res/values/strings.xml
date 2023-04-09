@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AppChatGrupo2</string>
+
+    <plurals name="participants">
+        <item quantity="one">%d participante</item>
+        <item quantity="other">%d participantes</item>
+    </plurals>
+
+</resources>
+

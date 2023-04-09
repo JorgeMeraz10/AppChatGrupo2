@@ -11,7 +11,7 @@ public class Grupos {
         Participants = participants;
     }
 
-    public Grupos(String programacion_movil_i, int icon, int participants) {
+    public Grupos(String name, int icon, int participants) {
     }
 
     public int getIcon() {

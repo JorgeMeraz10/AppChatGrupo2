@@ -26,8 +26,14 @@ public class GruposFragment extends Fragment {
 
         // Inicializar el adaptador de grupos
         groups = new ArrayList<>();
-        groups.add(new Grupos("Programacion Movil I", R.drawable.icon, 5));
-        groups.add(new Grupos("Redes IV", R.drawable.icon, 3));
+        groups.add(new Grupos("Programacion Movil I",  20));
+        groups.add(new Grupos("Redes IV",  10));
+        groups.add(new Grupos("Ingles I",  20));
+        groups.add(new Grupos("Redes III",  10));
+        groups.add(new Grupos("Programacion Avanzada I",  10));
+        groups.add(new Grupos("Circuitos Electricos I",  50));
+        groups.add(new Grupos("Programacion Movil II",  40));
+        groups.add(new Grupos("Analisís y Diseño de Algoritmos",  25));
         groupsAdapter = new GruposCustomAdapter(getContext(), groups);
 
         // Asignar el adaptador al ListView

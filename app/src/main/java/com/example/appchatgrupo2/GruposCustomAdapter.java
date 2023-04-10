@@ -44,13 +44,12 @@ public class GruposCustomAdapter extends ArrayAdapter<Grupos> {
         }
 
         final Grupos group = groups.get(position);
-        viewHolder.icon.setImageResource(group.getIcon());
         viewHolder.name.setText(group.getName());
         viewHolder.participants.setText(context.getResources().getQuantityString(R.plurals.participants, group.getParticipants(), group.getParticipants()));
-        viewHolder.buttonMore.setOnClickListener(new View.OnClickListener() {
+       viewHolder.buttonMore.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Implementar la acción del botón "Más"
+                // Implementar la acción del botón "Agregar"
             }
         });
 
@@ -61,6 +60,6 @@ public class GruposCustomAdapter extends ArrayAdapter<Grupos> {
         ImageView icon;
         TextView name;
         TextView participants;
-        Button buttonMore;
+        ImageView buttonMore;
     }
 }
